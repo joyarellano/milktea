@@ -90,7 +90,7 @@ export default {
       contact: { name: "", email: "", message: "" },
       success: false,
 
-      // ✅ ORDER MODAL STATE
+      // ORDER MODAL STATE
       showModal: false,
       selectedItem: null,
       order: {
@@ -102,24 +102,24 @@ export default {
   },
 
   methods: {
-    // ✅ OPEN MODAL
+    // OPEN MODAL
     openOrder(item) {
       this.selectedItem = item;
       this.showModal = true;
     },
 
-    // ✅ CLOSE MODAL
+    // CLOSE MODAL
     closeModal() {
       this.showModal = false;
     },
 
-    // ✅ SUBMIT ORDER
+    // SUBMIT ORDER
     submitOrder() {
       alert(
         `Order Confirmed!
-Item: ${this.selectedItem.name}
-Quantity: ${this.order.quantity}
-Size: ${this.order.size}`
+        Item: ${this.selectedItem.name}
+        Quantity: ${this.order.quantity}
+        Size: ${this.order.size}`
       );
 
       this.showModal = false;

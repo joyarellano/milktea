@@ -9,7 +9,7 @@ export default{
 
 <template>
   
-  <Main />
+  <Main ></Main>
 </template>
 
 
