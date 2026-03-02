@@ -148,7 +148,7 @@ export default {
         <!-- Logo -->
         <div class="flex items-center mt-2">
           <img :src="logo" alt="Logo" class="h-20 sm:h-24 md:h-28 lg:h-32
-                  w-auto object-contain brightness-90
+                  w-auto object-contain 
                   transition duration-500
                   scale-125 sm:scale-140 md:scale-150 lg:scale-160
                   drop-shadow-[0_0_20px_rgba(255,105,180,0.6)]" />
@@ -202,7 +202,7 @@ export default {
         bg-clip-text text-transparent 
         bg-yellow-400/100 
         mb-6">
-              Fresh & Creamy <br> Milk Tea <span class="text-white">🧋</span>
+              Fresh & Creamy <br> Milk Tea <span class="text-white"></span>
             </h2>
 
             <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-white mb-8 drop-shadow-lg">
@@ -229,7 +229,7 @@ export default {
           <!-- Title -->
           <div class="text-center mb-10 sm:mb-14">
             <h2 class="text-2xl sm:text-4xl md:text-5xl font-extrabold text-yellow-500 mb-6">
-              About Rheanie Milk Tea 🧋
+              About Rheanie Milk Tea 
             </h2>
             <p class="text-white/90 text-base sm:text-lg max-w-3xl mx-auto leading-relaxed">
               Rheanie Milk Tea started with a passion for crafting high-quality drinks.
@@ -250,7 +250,7 @@ export default {
 
             <!-- Text -->
             <div class="space-y-6 text-white text-center md:text-left">
-              <h3 class="text-2xl sm:text-3xl font-bold">Crafted With Love ❤️</h3>
+              <h3 class="text-2xl sm:text-3xl font-bold">Crafted With Love</h3>
               <p class="text-base sm:text-lg leading-relaxed">
                 Every cup is carefully prepared to bring joy in every sip.
                 We believe milk tea is more than just a drink —
@@ -358,7 +358,7 @@ export default {
             <!-- Badge -->
             <span class="absolute top-3 right-3 sm:top-4 sm:right-4 
                    bg-yellow-400 text-white text-xs px-3 py-1 rounded-full">
-              ⭐ Best Seller
+               Best Seller
             </span>
 
             <!-- IMAGE (UNCHANGED) -->
@@ -394,7 +394,7 @@ export default {
           <div class="space-y-6 text-center md:text-left">
 
             <div>
-              <h3 class="text-xl sm:text-2xl font-semibold text-yellow-500 mb-2">📍 Address</h3>
+              <h3 class="text-xl sm:text-2xl font-semibold text-yellow-500 mb-2"> Address</h3>
               <p class="text-white text-sm sm:text-base">
                 Roxas Street <br>
                 Tagum City, Davao del Norte
@@ -402,7 +402,7 @@ export default {
             </div>
 
             <div>
-              <h3 class="text-xl sm:text-2xl font-semibold text-yellow-500 mb-2">⏰ Opening Hours</h3>
+              <h3 class="text-xl sm:text-2xl font-semibold text-yellow-500 mb-2"> Opening Hours</h3>
               <p class="text-white text-sm sm:text-base">
                 Monday – Friday: 10:00 AM – 9:00 PM <br>
                 Saturday – Sunday: 11:00 AM – 10:00 PM
@@ -410,7 +410,7 @@ export default {
             </div>
 
             <div>
-              <h3 class="text-xl sm:text-2xl font-semibold text-yellow-500 mb-2">📞 Contact</h3>
+              <h3 class="text-xl sm:text-2xl font-semibold text-yellow-500 mb-2"> Contact</h3>
               <p class="text-white text-sm sm:text-base break-words">
                 Phone: 0912 345 6789 <br>
                 Email: support@milkteashop.com
@@ -508,7 +508,7 @@ export default {
               </h3>
 
               <div class="flex items-start gap-3 sm:gap-4">
-                <div class="text-xl sm:text-2xl">📍</div>
+                
                 <div>
                   <p class="font-semibold text-gray-800 text-sm sm:text-base">Address</p>
                   <p class="text-gray-600 text-sm break-words">
@@ -519,7 +519,7 @@ export default {
               </div>
 
               <div class="flex items-start gap-3 sm:gap-4">
-                <div class="text-xl sm:text-2xl">📞</div>
+                
                 <div>
                   <p class="font-semibold text-gray-800 text-sm sm:text-base">Phone</p>
                   <p class="text-gray-600 text-sm break-words">
@@ -529,7 +529,7 @@ export default {
               </div>
 
               <div class="flex items-start gap-3 sm:gap-4">
-                <div class="text-xl sm:text-2xl">✉️</div>
+                
                 <div>
                   <p class="font-semibold text-gray-800 text-sm sm:text-base">Email</p>
                   <p class="text-gray-600 text-sm break-words">
@@ -595,7 +595,7 @@ export default {
           Rheanie Milk Tea
         </h2>
         <p class="text-sm text-gray-700 leading-relaxed">
-          Serving happiness in every sip 🧋
+          Serving happiness in every sip 
           Freshly brewed tea, creamy milk, and chewy pearls made with love.
         </p>
       </div>
@@ -615,9 +615,9 @@ export default {
       <div class="sm:col-span-2 md:col-span-2">
         <h3 class="font-semibold text-base sm:text-lg mb-4 text-yellow-200">Contact Us</h3>
         <ul class="space-y-2 text-sm mb-4 break-words">
-          <li>📍 Roxas Street, Tagum City, Davao del Norte</li>
-          <li>📞 +63 970 029 9688</li>
-          <li>✉️ rheaniemilktea@email.com</li>
+          <li> Roxas Street, Tagum City, Davao del Norte</li>
+          <li> +63 970 029 9688</li>
+          <li> rheaniemilktea@email.com</li>
         </ul>
 
         <div class="rounded-xl overflow-hidden shadow-md">
