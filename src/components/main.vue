@@ -191,28 +191,28 @@ export default {
         <!-- Background Image (Full Cover) -->
         <div class="absolute inset-0">
           <img src="https://i.pinimg.com/736x/bb/e6/69/bbe669f625e055e9ac99ec22d4c3ae5e.jpg" alt="Milk Tea Background"
-            class="w-full h-full object-cover brightness-50" />
+            class="w-full h-full object-cover" />
         </div>
 
         <!-- Content -->
-        <div class="ml-0 sm:ml-10 md:ml-20 lg:ml-40 px-4 sm:px-6">
+        <div class=" px-4 sm:px-6">
           <div class="relative z-10 text-center max-w-4xl animate-slide">
 
             <h2 class="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-semibold
-        bg-clip-text text-transparent 
-        bg-yellow-400/100 
-        mb-6">
-              Fresh & Creamy <br> Milk Tea <span class="text-white"></span>
+              bg-clip-text text-transparent 
+              bg-amber-500 drop-shadow-lg
+              mb-6">
+              Fresh & Creamy <br> Milk Tea 
             </h2>
 
-            <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-white mb-8 drop-shadow-lg">
+            <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-white mb-8 text-shadow-lg/30">
               Experience the perfect blend of tea, milk, and chewy pearls <br> made fresh every day.
               Taste happiness in every sip!
             </p>
 
             <button @click="currentPage = 'Menu'" class="bg-yellow-600 text-white 
-        px-6 sm:px-8 py-2 sm:py-3 rounded-full
-        hover:scale-110 duration-300 cursor-pointer">
+               px-6 sm:px-8 py-2 sm:py-3 rounded-full
+               hover:scale-110 duration-300 cursor-pointer">
               Explore Menu
             </button>
 
@@ -229,9 +229,9 @@ export default {
           <!-- Title -->
           <div class="text-center mb-10 sm:mb-14">
             <h2 class="text-2xl sm:text-4xl md:text-5xl font-extrabold text-yellow-500 mb-6">
-              About Rheanie Milk Tea 
+              About Rheanie Milk Tea
             </h2>
-            <p class="text-white/90 text-base sm:text-lg max-w-3xl mx-auto leading-relaxed">
+            <p class="text-white/90 text-base sm:text-lg max-w-3xl mx-auto leading-relaxed  text-shadow-lg/30">
               Rheanie Milk Tea started with a passion for crafting high-quality drinks.
               From classic brown sugar milk tea to fruity refreshers,
               we use premium ingredients and fresh pearls every single day.
@@ -251,7 +251,7 @@ export default {
             <!-- Text -->
             <div class="space-y-6 text-white text-center md:text-left">
               <h3 class="text-2xl sm:text-3xl font-bold">Crafted With Love</h3>
-              <p class="text-base sm:text-lg leading-relaxed">
+              <p class="text-base sm:text-lg leading-relaxed  text-shadow-lg/30">
                 Every cup is carefully prepared to bring joy in every sip.
                 We believe milk tea is more than just a drink —
                 it's an experience shared with friends and family.
@@ -358,7 +358,7 @@ export default {
             <!-- Badge -->
             <span class="absolute top-3 right-3 sm:top-4 sm:right-4 
                    bg-yellow-400 text-white text-xs px-3 py-1 rounded-full">
-               Best Seller
+              Best Seller
             </span>
 
             <!-- IMAGE (UNCHANGED) -->
@@ -412,8 +412,8 @@ export default {
             <div>
               <h3 class="text-xl sm:text-2xl font-semibold text-yellow-500 mb-2"> Contact</h3>
               <p class="text-white text-sm sm:text-base break-words">
-                Phone: 0912 345 6789 <br>
-                Email: support@milkteashop.com
+                Phone: 0970 029 9688 <br>
+                Email: rheaniemilktea@email.com
               </p>
             </div>
 
@@ -508,7 +508,7 @@ export default {
               </h3>
 
               <div class="flex items-start gap-3 sm:gap-4">
-                
+
                 <div>
                   <p class="font-semibold text-gray-800 text-sm sm:text-base">Address</p>
                   <p class="text-gray-600 text-sm break-words">
@@ -519,7 +519,7 @@ export default {
               </div>
 
               <div class="flex items-start gap-3 sm:gap-4">
-                
+
                 <div>
                   <p class="font-semibold text-gray-800 text-sm sm:text-base">Phone</p>
                   <p class="text-gray-600 text-sm break-words">
@@ -529,7 +529,7 @@ export default {
               </div>
 
               <div class="flex items-start gap-3 sm:gap-4">
-                
+
                 <div>
                   <p class="font-semibold text-gray-800 text-sm sm:text-base">Email</p>
                   <p class="text-gray-600 text-sm break-words">
@@ -590,19 +590,19 @@ export default {
 
       <!-- Brand -->
       <div>
-        <h2 class="text-xl sm:text-2xl font-extrabold bg-yellow-200 
-             bg-clip-text text-transparent mb-4">
+        <h2 class="text-xl sm:text-2xl font-extrabold text-yellow-200 
+             bg-clip-text text-transparent mb-4  text-shadow-lg/30">
           Rheanie Milk Tea
         </h2>
         <p class="text-sm text-gray-700 leading-relaxed">
-          Serving happiness in every sip 
+          Serving happiness in every sip
           Freshly brewed tea, creamy milk, and chewy pearls made with love.
         </p>
       </div>
 
       <!-- Quick Links -->
       <div>
-        <h3 class="font-semibold text-base sm:text-lg mb-4 text-yellow-200">Quick Links</h3>
+        <h3 class="font-semibold text-base sm:text-lg mb-4 text-yellow-200  text-shadow-lg/30">Quick Links</h3>
         <ul class="space-y-2 text-sm">
           <li><button @click="currentPage = 'Home'" class="hover:text-pink-500 transition">Home</button></li>
           <li><button @click="currentPage = 'Menu'" class="hover:text-pink-500 transition">Menu</button></li>
@@ -613,7 +613,7 @@ export default {
 
       <!-- Contact Info + Map -->
       <div class="sm:col-span-2 md:col-span-2">
-        <h3 class="font-semibold text-base sm:text-lg mb-4 text-yellow-200">Contact Us</h3>
+        <h3 class="font-semibold text-base sm:text-lg mb-4 text-yellow-200  text-shadow-lg/30">Contact Us</h3>
         <ul class="space-y-2 text-sm mb-4 break-words">
           <li> Roxas Street, Tagum City, Davao del Norte</li>
           <li> +63 970 029 9688</li>
