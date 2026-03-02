@@ -357,7 +357,7 @@ Size: ${this.order.size}`
 
             <!-- Badge -->
             <span class="absolute top-3 right-3 sm:top-4 sm:right-4 
-                   bg-yellow-400 text-white text-xs px-3 py-2 rounded-full animate-bounce">
+                   bg-yellow-400 text-white text-xs px-3 py-1 rounded-full">
               ⭐ Best Seller
             </span>
 
