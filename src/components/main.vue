@@ -523,7 +523,7 @@ export default {
                 <div>
                   <p class="font-semibold text-gray-800 text-sm sm:text-base">Phone</p>
                   <p class="text-gray-600 text-sm break-words">
-                    +63 970 029 9688
+                    +63 948 363 3498
                   </p>
                 </div>
               </div>
@@ -616,7 +616,7 @@ export default {
         <h3 class="font-semibold text-base sm:text-lg mb-4 text-yellow-200  text-shadow-lg/30">Contact Us</h3>
         <ul class="space-y-2 text-sm mb-4 break-words">
           <li> Roxas Street, Tagum City, Davao del Norte</li>
-          <li> +63 970 029 9688</li>
+          <li> +63 948 363 3498</li>
           <li> rheaniemilktea@email.com</li>
         </ul>
 
