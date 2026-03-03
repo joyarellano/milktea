@@ -513,7 +513,7 @@ export default {
                   <p class="font-semibold text-gray-800 text-sm sm:text-base">Address</p>
                   <p class="text-gray-600 text-sm break-words">
                     Roxas Street <br>
-                    Tagum City, Davao del Norte
+                    Tagum City Davao del Norte
                   </p>
                 </div>
               </div>
