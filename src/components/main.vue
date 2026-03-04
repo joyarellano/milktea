@@ -202,7 +202,7 @@ export default {
               bg-clip-text text-transparent 
               bg-amber-500 drop-shadow-lg
               mb-6">
-              Fresh & Creamy <br> MilkTea 
+              Fresh and Creamy <br> MilkTea 
             </h2>
 
             <p class="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-white mb-8 text-shadow-lg/30">
